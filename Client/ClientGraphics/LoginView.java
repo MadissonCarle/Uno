@@ -21,7 +21,7 @@ public class LoginView extends JFrame{
 	private JTextField userText = new JTextField (10);
 	private JTextField passText= new JTextField(10);
 	private JTextField gameText = new JTextField (10);
-	private JLabel welcome = new JLabel("Welcome to online UNO!");
+	//private JLabel welcome = new JLabel("Welcome to online UNO!");
 	private JLabel instruction1 = new JLabel("If you are creating a new game, enter your own game name and password and share it with friends!");
 	private JLabel instruction2 = new JLabel("If you are joining a game enter the game name and password provided by your friends!");
 	
@@ -51,8 +51,7 @@ public class LoginView extends JFrame{
 		panel1.add(game);
 		panel1.add(gameText);
 		
-		welcome.setBounds(425, 100, 300, 40);
-		add(welcome);
+		
 		instruction1.setBounds(200, 150, 600, 40);
 		add(instruction1);
 		instruction2.setBounds(225, 175, 600, 40);
